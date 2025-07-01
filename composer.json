@@ -1,0 +1,16 @@
+{
+    "name": "ajay.y/books-manager",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "AjayY\\BooksManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ajay Yadav",
+            "email": "ajayadav09@gmail.com"
+        }
+    ],
+    "require": {}
+}
