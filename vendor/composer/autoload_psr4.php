@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'AjayY\\BooksManager\\' => array($baseDir . '/src'),
+    'AjayY\\BooksManager\\' => array($baseDir . '/includes'),
 );

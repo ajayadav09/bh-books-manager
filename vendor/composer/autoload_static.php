@@ -16,7 +16,7 @@ class ComposerStaticInit69b003c01cf72ae4640824ccdcd158e1
     public static $prefixDirsPsr4 = array (
         'AjayY\\BooksManager\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/includes',
         ),
     );
 

@@ -3,7 +3,7 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "AjayY\\BooksManager\\": "src/"
+            "AjayY\\BooksManager\\": "includes/"
         }
     },
     "authors": [
@@ -12,5 +12,7 @@
             "email": "ajayadav09@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+         "php": ">=7.4"
+    }
 }
