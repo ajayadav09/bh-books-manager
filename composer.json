@@ -3,7 +3,7 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "AjayY\\BooksManager\\": "includes/"
+            "BooksManager\\": "includes/"
         }
     },
     "authors": [
@@ -12,7 +12,17 @@
             "email": "ajayadav09@gmail.com"
         }
     ],
+    "repositories": {
+    "newfold": {
+      "type": "composer",
+      "url": "https://newfold-labs.github.io/satis/",
+      "only": [
+        "newfold-labs/*"
+      ]
+    }
+  },
     "require": {
-         "php": ">=7.4"
+         "php": ">=7.4",
+         "newfold-labs/wp-module-framework": "^0.2.6"
     }
 }
