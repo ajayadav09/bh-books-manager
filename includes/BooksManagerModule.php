@@ -9,12 +9,7 @@ class BooksManagerModule {
 
         (new Plugin())->boot();
 
-        $path = plugin_dir_path( __FILE__ ) . 'panel';
         $relative_path = '/includes/panel';
-        error_log( 'tab_options_paths = ' . $path );
-        error_log( 'settings.php exists? ' . ( file_exists( $path . '/settings.php' ) ? 'yes' : 'no' ) );
-        error_log( 'books.php exists? ' . ( file_exists( $path . '/books.php' ) ? 'yes' : 'no' ) );
-        error_log( 'reports.php exists? ' . ( file_exists( $path . '/reports.php' ) ? 'yes' : 'no' ) );
 
         self::fw_plugin()->register_panel( [
             'page'         => 'books_manager_panel',

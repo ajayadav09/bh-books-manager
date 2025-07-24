@@ -21,6 +21,12 @@ if ( file_exists( plugin_dir_path( __FILE__ ) . 'vendor/newfold-labs/wp-module-f
 	require_once plugin_dir_path( __FILE__ ) . 'vendor/newfold-labs/wp-module-framework/loader.php';
 }
 
+if ( ! function_exists( 'wc_clean' ) ) {
+	function wc_clean( $var ) {
+		return is_scalar( $var ) ? sanitize_text_field( $var ) : $var;
+	}
+}
+
 add_action(
 	'bluehost/framework/register_plugins',
 	function () {
