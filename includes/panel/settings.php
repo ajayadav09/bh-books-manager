@@ -1,15 +1,15 @@
 <?php
 return [
-	'title'    => 'Settings',
-	'type'     => 'options',
+	'title' => 'Settings',
+	'type'  => 'options',
 	'sections' => [
 		'general' => [
-			'title'   => 'General Settings',
+			'title' => 'General Settings',
 			'options' => [
-				'enable_feature' => [
-					'name'    => 'Enable Feature',
-					'type'    => 'onoff',
-					'default' => 'yes',
+				'book_note' => [
+					'name'    => 'Book Note',
+					'type'    => 'text',
+					'default' => '',
 				],
 			],
 		],
